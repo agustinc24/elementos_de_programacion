@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1561645426 source:f:\2do parcial\parcial_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

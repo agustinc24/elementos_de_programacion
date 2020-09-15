@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1557153788 source:f:\elementos de programación\fotocopia 7\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

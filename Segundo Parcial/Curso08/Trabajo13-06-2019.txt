@@ -1,0 +1,36 @@
+1) realizar la carga de datos del archivo pelicula.dat que esta en z:\Curso08, 
+   la estructura es la siguiente:
+struct reg00
+    {
+     int  nropel;
+     char nompel[25];
+     char dirpel[25];
+     char actor1[20];
+     char actor2[20];
+     char tipo[10];
+    };
+ Mostrar por pantalla, la carga realizada en memoria.
+2) Grabar en disco C: o si tiene pendrive con letra que lo identifica Carpeta=trapeli (ej.c:\\trapeli\\pelicula.dat
+   verificar la existencia del mismo.
+3) Ahora trabajar con los datos de peliculas generado en disco C: o pendrive. Mostrar por pantalla solo las peliculas de genero Accion.
+4)Mostrar tipo ingresado por teclado.
+
+
+Practica 1
+La Universidad Austral, desea analizar los alumnos inscriptos en Primer Año, para ello se cuenta con los siguientes datos de cada alumno:
+?	Número de Legajo 	(int, entre 10001 y 99000)
+?	Edad 	(char, puede ser “A” o “M”). La letra “A” corresponde a alumnos que tienen menos de 20 años y la letra “M” corresponde a alumnos que tienen 20 años o más.
+?	Localidad en la que vive (char, puede ser “C” o “P”). La letra “C” corresponde a alumnos que tienen viven en la Capital Federal y la letra “P” corresponde a alumnos que viven en la Provincia de Buenos Aires.
+?	Código de Carrera Universitaria (int, entre 101 y 350)
+Para indicar el fin del lote de información se ingresa un 10000 en el Número de Legajo.
+Desarrollar su correspondiente codificación en C para que leyendo los datos detallados anteriormente, permita determinar e informar:
+a)	Guardar los datos ingresado por teclado (luego de ser validados) en un archivo llamado “TANDIL.dat”
+b)	Determinar la cantidad de alumnos inscriptos y que tengan más de 20 años.
+c)	Hallar el porcentaje de los alumnos que viven en la Capital federal y que tienen menos de 20 años. 
+d)	Cual ha sido la cantidad de alumnos con el Código de Carrera Universitaria Nro 205 y que tienen más de 20 años. 
+. Se pide las siguientes funciones:
+1)	Hacer una función que permita validar el Código de Carrera Universitaria y el Número de Legajo, el ingreso de los datos se realiza en el Programa Principal (función main).
+2)	Hacer una sola función que permita realizar la suma de las cantidades de cada Código de Carrera Universitaria del PUNTO b)  
+3)	Hacer una función que me permita calcular el porcentaje del PUNTO c). 
+4)	Hacer una función que me permita mostrar los resultados obtenido en el PUNTO d)
+
